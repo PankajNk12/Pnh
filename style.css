@@ -1,0 +1,155 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px ;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+}
+.sidebar{
+    align-items: center;
+    display: table-column;
+    flex-direction: row;
+    flex:1 ;
+    border: 1px solid black;
+    justify-content: center;
+}
+.Foodislice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 165, 2);
+}
+.buttons{
+    display: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+ 
+}
+.bn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.img{
+    width: 20px;
+    background-color: transparent;
+    
+}
+.ms{
+    padding-top: 5px;
+    position: absolute;
+    padding-left: 18px;
+}
+.ds{
+    padding-top: 5px;
+    position: absolute;
+    padding-left: 15px;
+    width: 18px;
+}
+.st{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+.oh{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+.hm{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+.fd{
+    position: absolute;
+    padding-top: 6px;
+    padding-left: 15px;
+}
+
+.foodview{
+    display: flex;
+    flex-direction: column;
+    flex:3 ;
+    border: 1px solid black;
+}
+.one{
+    display: flex;
+    flex: 1;
+    border: 1px solid black;
+}
+.one input{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    padding-left: 20px;
+    border: 1px solid black;
+    gap: 5px;
+    border-radius: 10px;
+}
+.one button{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(238, 98, 5);
+}
+.two{
+    display: flex;
+    direction: row;
+    flex: 5;
+    border: 0px solid black;
+}
+.A{
+display: flex;
+flex-direction: column;
+flex: 2;
+border: 1px solid black;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border: 1px solid black;
+}
+.xa{
+display: flex;
+flex: 1;
+border: 0px solid black;
+}
+
+.xb{
+    display: flex;
+    flex: 3;
+    border: 1px solid black;
+}
+.xc{
+    display: flex;
+    flex: 3;
+    border: px solid black;
+}
+.a2{
+    display: flex;
+    flex: 5;
+    border: 1px solid black;
+}
+.B{
+    display: flex;
+    flex: 1;
+}
